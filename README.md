@@ -1,5 +1,9 @@
 # Machine Learning Homework - Exoplanet Exploration
 
+This repository contains two Jupyter notebooks. Click the links below to view or download them.
+
+[SVC Model](model_1.ipynb)
+[Precision Tree](precision_tree.ipynb)
 ## Background
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
 To help process this data, you will create machine learning models capable of classifying candidate exoplanets from the raw dataset.
@@ -18,8 +22,12 @@ In this homework assignment, you I need to:
 * Use `GridSearch` to tune model parameters.
 * Tune and compare at least two different classifiers.
 
-### Reporting
+### Report:
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+### Support Vector Machine:
+Test Accuracy: 57.5% 
+Classification Report:
+
+
 
 
