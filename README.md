@@ -26,7 +26,8 @@ In this homework assignment, you I need to:
 
 ### Support Vector Machine:
 Test Accuracy: 57.5% 
-Classification Report:
+Training Data Score: 0.565
+Testing Data Score: 0.575
 
 
 
