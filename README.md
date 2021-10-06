@@ -3,7 +3,8 @@
 This repository contains two Jupyter notebooks. Click the links below to view or download them.
 
 [SVC Model](model_1.ipynb)
-[Precision Tree](precision_tree.ipynb)
+
+[Random Forest Classifier](random_forest.ipynb)
 ## Background
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
 To help process this data, you will create machine learning models capable of classifying candidate exoplanets from the raw dataset.
