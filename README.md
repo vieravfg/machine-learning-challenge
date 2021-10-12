@@ -25,13 +25,39 @@ In this homework assignment, you I need to:
 
 ### Report:
 
+### Random Forest:
+
+Testing Data Score: 89%
+
+With Hyperparameter Tuning: 
+
+Best Score: 0.8817488847975898
+
+Training score: 0.5943162311653634
+
+Testing score: 0.6006864988558352
+
+Top Important Features: 
+
+ (0.11292541388960561, 'koi_fpflag_co'),
+ (0.09546624971279441, 'koi_fpflag_nt'),
+ (0.058408343967751096, 'koi_model_snr'),
+ (0.05732861577426242, 'koi_fpflag_ss'),
+ (0.04992822122249595, 'koi_prad'),
+ (0.03953142197580586, 'koi_prad_err2'),
+ (0.03686228779771059, 'koi_fpflag_ec'),
+ (0.03511685768660821, 'koi_duration_err2')
+ 
 ### Support Vector Machine:
-Test Accuracy: 57.5% 
 
-Training Data Score: 0.565
+Best Score: 0.863438643855653
 
-Testing Data Score: 0.575
+Training Data Score: 0.7383177570093458
 
+Testing Data Score: 0.7391304347826086
+
+### SVC Classification Report
+![report.jpg](Images/report.jpg)
 
 
 
