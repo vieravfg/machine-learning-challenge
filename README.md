@@ -23,7 +23,7 @@ In this homework assignment, you I need to:
 * Use `GridSearch` to tune model parameters.
 * Tune and compare at least two different classifiers.
 
-## Report:
+## Report
 
 ### Random Forest:
 
