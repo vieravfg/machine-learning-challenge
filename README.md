@@ -9,7 +9,7 @@ This repository contains two Jupyter notebooks. Click the links below to view or
 Over a period of nine years in deep space, the NASA Kepler space telescope has been out on a planet-hunting mission to discover hidden planets outside of our solar system.
 To help process this data, you will create machine learning models capable of classifying candidate exoplanets from the raw dataset.
 ## Instructions
-In this homework assignment, you I need to:
+In this homework assignment, I need to:
 
 ### Preprocess the Data
 
@@ -27,7 +27,7 @@ In this homework assignment, you I need to:
 
 ### Random Forest:
 
-Testing Data Score: 89%
+Testing Data Score: 0.89
 
 With Hyperparameter Tuning: 
 
@@ -47,6 +47,8 @@ Top Important Features:
  (0.03953142197580586, 'koi_prad_err2'),
  (0.03686228779771059, 'koi_fpflag_ec'),
  (0.03511685768660821, 'koi_duration_err2')
+### SVC Classification Report
+![random_forest.jpg](Images/random_forest.jpg)
  
 ### Support Vector Machine:
 
@@ -59,5 +61,10 @@ Testing Data Score: 0.7391304347826086
 ### SVC Classification Report
 ![report.jpg](Images/report.jpg)
 
+### Analysis 
 
+The hypertuned SVM Model with the GridSearch parameters achieved a higher accuracy than the model with Random Forest. 
 
+In order to have a higher accuracy is best to find the hyperparameters available by creating a random forest and examining the default values.
+
+Due to the complexity of the parameters one has to narrow the range of values for each hyperparameter by fitting the random search.
