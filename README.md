@@ -47,7 +47,7 @@ Top Important Features:
  (0.03953142197580586, 'koi_prad_err2'),
  (0.03686228779771059, 'koi_fpflag_ec'),
  (0.03511685768660821, 'koi_duration_err2')
-### SVC Classification Report
+### Random Forest Classification Report
 ![random_forest.jpg](Images/random_forest.jpg)
  
 ### Support Vector Machine:
